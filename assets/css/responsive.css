@@ -1,0 +1,41 @@
+/* Responsive Typography  */
+@media screen and (min-width: 1150px) {
+  :root {
+    --big-font-size: 3.5rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+  }
+}
+
+
+@media screen and (max-width: 1150px) {
+
+  .nav__menu{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 50%;
+    padding: 7.5rem 1.5rem 0;
+    background-color: white;
+    border-left: 2px solid var(--white-color);
+    transition: right .4s;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
+  .nav__logo{
+    z-index: 1;;
+
+  }
+}
+
+  /* show menu */
+
+.show-menu{
+  right: 0;
+}
+

@@ -1,0 +1,86 @@
+/* reset - base*/
+
+/* ========== Reset & Base Styles ========== */
+
+/* Box model reset */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Body styles */
+body {
+  font-family: var(--font-primary);
+  font-size: var(--font-base);
+  background-color: var(--background-light);
+  color: var(--text-dark);
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: var(--text-dark);
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  color: var(--text-dark);
+  font-weight: var(--font-semibold);
+}
+
+/* Lists */
+ul {
+  list-style: none;
+}
+
+/* Images */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* reusable css classes */
+
+.container {
+  max-width: 1120px;
+  margin-inline: 1rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+.section {
+  padding-block: 5rem 1rem;
+}
+
+.section__title, 
+.section__subtitle {
+  text-align: center;
+}
+
+.section__title {
+  font-size: var(--font-title);
+  font-weight: var(--font-bold);
+  margin-bottom: 1.5rem;
+}
+
+.section__subtitle {
+  display: block;
+  font-size: var(--font-normal);
+  font-weight: var(--font-semibold);
+  color: var(--secondary-color);
+  margin-bottom: .5rem;
+}
+
+.main {
+  overflow: hidden;
+}
