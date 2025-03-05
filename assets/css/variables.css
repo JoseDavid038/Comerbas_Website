@@ -7,12 +7,14 @@
   --black-color: black;
   --white-color: white;
   
-  --primary-color: #00A86B; /* Main Green */
+  --primary-color: #05944D; /* Main Green */
   --secondary-color:  #004AAD; /* blue */
   --background-light: #F8F9FA;
+  --background-slide-main: #C9EDDB;
+  --background-slide-second: #DBECFF;
   --text-dark: #1A1A1A;
   --text-light: #FFFFFF;
-  --button-bg: #004AAD;
+  --button-bg: #16215B;
   --button-hover: #003B8A;
 
   --black-border: hsl(255, 10%, 20%);
@@ -41,7 +43,7 @@
   
   /* Spacing (converted to rem) */
   --spacing-small: 0.5rem;  /* 8px */
-  --spacing-medium: 1rem;   /* 16px */
+  --spacing-medium: 1.3rem;   /* 16px */
   --spacing-large: 2rem;    /* 32px */
   
   /* Borders (converted to rem) */

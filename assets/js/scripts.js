@@ -30,3 +30,33 @@ const linkAction = () =>{
 }
 
 navLink.forEach(n => n.addEventListener('click', linkAction));
+
+
+// Swiper
+
+var swiper = new Swiper(".mySwiper", {
+  spaceBetween: 30,
+  centeredSlides: true,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: true,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+ breakpoints: {
+    // When the viewport is 640px or larger
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    // When the viewport is 1024px or larger
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    }
+  }
+});
+
+

@@ -1,6 +1,6 @@
 
 .logo{
-  width: 110px;
+  width: 120px;
 }
 
 
@@ -48,7 +48,7 @@
 .nav__list{
   display: flex;
   flex-direction: column;
-  row-gap: 1rem;
+  row-gap: 1.5rem;
   
 }
 
@@ -71,7 +71,7 @@
 
 
 /* button */
-.button{
+.button--menu{
   display: inline-flex;
   background: var(--primary-color);
   color: var(--white-color);
@@ -89,6 +89,23 @@
   box-shadow: 0 8px 32px hsla(152, 94%, 30%, 0.3);
   color: var(--white-color);
 }
+
+
+.button{
+  display: inline-flex;
+  color: var(--white-color);
+  font-weight: var(--font-semibold);
+  padding: 0.8rem 1rem;
+  font-size: 0.8rem;
+  transition: box-shadow .4s;
+  border-radius: 25px;
+  column-gap: 10px;
+  align-items: center;
+  margin-top: .8rem;
+}
+
+
+
 
 
 

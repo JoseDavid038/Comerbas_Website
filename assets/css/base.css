@@ -58,8 +58,9 @@ img {
   display: grid;
   gap: 1.5rem;
 }
+
 .section {
-  padding-block: 5rem 1rem;
+  padding-block: 5rem 2rem;
 }
 
 .section__title, 

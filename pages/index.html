@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- favicon -->
-  <link rel="shortcut icon" href="../assets/images/icons/favicon.ico" type="image/x-icon">
-  <!-- css -->
-  <link rel="stylesheet" href="../assets/css/variables.css">
-  <link rel="stylesheet" href="../assets/css/header-footer.css">
-  <link rel="stylesheet" href="../assets/css/base.css">
-  <link rel="stylesheet" href="../assets/css/responsive.css">
-  <!--icons-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css">
-  <!-- fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-  <!-- Link to local Swiper CSS -->
-  <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../assets/images/icons/favicon.ico" type="image/x-icon">
+    <!-- css -->
+    <link rel="stylesheet" href="../assets/css/variables.css">
+    <link rel="stylesheet" href="../assets/css/header-footer.css">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/sections.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <!-- Link to local Swiper CSS -->
+    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
 
-  <title>Comerbas</title>
-</head>
+    <title>Comerbas</title>
+  </head>
 
 
-<body>
+  <body>
 
   <!-- header -->
    <header class="header" id="header">
@@ -40,7 +41,7 @@
           <li href="" class="nav__link">IPS</li>
           <li href="" class="nav__link">Sobre nosotros</li>
           <li href="" class="nav__link">
-            <a href="" target="_blank" class="nav__link button">
+            <a href="" target="_blank" class="nav__link button--menu">
               <i class="ri-handbag-line"></i>
               <span>Tienda en línea Comerbas</span>
             </a>
@@ -62,20 +63,81 @@
     </nav>
    </header>
 
+   <main class="main">
+    <section class="hero section">
 
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide swiper-slide-1">
+            <h1>Accede al crédito que tú y tu familia necesita</h1>
+            <p>Queremos lo mejor para ti y tu familia, solicita un crédito de consumo para que puedas cumplir ese sueño que tanto deseas.</p>
+            <a href="#" class="button">
+              <span>Solicita tu crédito</span>
+              <i class="ri-arrow-right-line"></i>
+            </a>
+            <div class="swiper-slide-image-container">
+              <img src="../assets/images/hero/hero-banner-family.png" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide swiper-slide-2">
+            <h1>Protege a los tuyos con un seguro exequial</h1>
+            <p>Brinda tranquilidad a tu familia en los momentos más difíciles. Con nuestro seguro exequial, cuentas con respaldo financiero cuando más lo necesitas.</p>
+            <a href="#" class="button">
+              <span>Solicíta tu seguro exequial </span>
+              <i class="ri-arrow-right-line"></i>
+            </a>
+            <div class="swiper-slide-image-container">
+              <img src="../assets/images/hero/hero-banner-older.png" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide swiper-slide-3">
+            <h1>Te financiamos los productos que necesitas</h1>
+            <p>Lleva a casa productos y electrodomésticos con  pagos accesibles para tí.</p>
+            <a href="#" class="button">
+              <span>Compra en línea</span>
+              <i class="ri-arrow-right-line"></i>
+            </a>
+            <div class="swiper-slide-image-container">
+              <img src="../assets/images/hero/hero-banner-appliances.png" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide swiper-slide-4">
+            <h1>Bonos de mercado para tus compras diarias</h1>
+            <p>Solicita nuestros bonos de mercadohoy mismo y disfruta de descuentos exclusivos en los establecimientos asociados.</p>
+            <a href="#" class="button">
+              <span>Solicíta tus bonos</span>
+              <i class="ri-arrow-right-line"></i>
+            </a>
+            <div class="swiper-slide-image-container">
+              <img src="../assets/images/hero/hero-banner-groceries.png" alt="">
+            </div>
+           
+          </div>
+        </div>
+    
+        <div class="swiper-pagination"></div>
+      </div>
+
+    </section>
+   </main>
+
+ 
 
   
 
 
 
+  <a href="#" class="scrollup" id="scrollup">
+    <img src="../assets/images/icons/whatsapp.png" alt="">
+  </a>
 
 
 
-
-  <script src="../assets/js/swiper-bundle.min.js"></script>
-  <script src="../assets/js/scripts.js"></script>
+    <script src="../assets/js/swiper-bundle.min.js"></script>
+    <script src="../assets/js/scripts.js"></script>
 
 
   
-</body>
+  </body>
 </html>
