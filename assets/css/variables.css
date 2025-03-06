@@ -9,13 +9,17 @@
   
   --primary-color: #05944D; /* Main Green */
   --secondary-color:  #004AAD; /* blue */
-  --background-light: #F8F9FA;
+  --background-light: white;
   --background-slide-main: #C9EDDB;
   --background-slide-second: #DBECFF;
+  --background-section: #F2F5F9;
+  --background-section-second: #DBECFF;
   --text-dark: #1A1A1A;
   --text-light: #FFFFFF;
+  --text-dark-blue: #16215B;
   --button-bg: #16215B;
   --button-hover: #003B8A;
+  --button-bg2: #0070FA;
 
   --black-border: hsl(255, 10%, 20%);
   

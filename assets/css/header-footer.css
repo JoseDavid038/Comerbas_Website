@@ -1,6 +1,6 @@
 
 .logo{
-  width: 120px;
+  width: 100px;
 }
 
 
@@ -14,6 +14,7 @@
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
+  background-color: var(--white-color);
 }
 
 .nav{
@@ -22,7 +23,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  top: 0.5rem;
+  top: 0.1rem;
 }
 
 .nav__logo{
@@ -74,35 +75,11 @@
 .button--menu{
   display: inline-flex;
   background: var(--primary-color);
-  color: var(--white-color);
-  font-weight: var(--font-semibold);
   padding: 1rem 1.5rem;
-  font-size: 0.8rem;
-  transition: box-shadow .4s;
-  border-radius: 30px;
-  column-gap: 10px;
-  align-items: center;
-  margin-top: .8rem;
-}
-
-.button:hover{
-  box-shadow: 0 8px 32px hsla(152, 94%, 30%, 0.3);
-  color: var(--white-color);
+  
 }
 
 
-.button{
-  display: inline-flex;
-  color: var(--white-color);
-  font-weight: var(--font-semibold);
-  padding: 0.8rem 1rem;
-  font-size: 0.8rem;
-  transition: box-shadow .4s;
-  border-radius: 25px;
-  column-gap: 10px;
-  align-items: center;
-  margin-top: .8rem;
-}
 
 
 

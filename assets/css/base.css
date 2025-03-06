@@ -46,6 +46,11 @@ img {
   height: auto;
 }
 
+.main {
+  overflow: hidden;
+  padding-block: 3.6rem 2rem;
+}
+
 
 /* reusable css classes */
 
@@ -59,9 +64,17 @@ img {
   gap: 1.5rem;
 }
 
-.section {
-  padding-block: 5rem 2rem;
+.section{
+  margin-block: 2rem 2rem;
+  padding-block: 3rem;
+  border-radius: 30px;
 }
+
+.section__content{
+  text-align: center;
+  margin-inline: 1.5rem;
+}
+ 
 
 .section__title, 
 .section__subtitle {
@@ -82,6 +95,22 @@ img {
   margin-bottom: .5rem;
 }
 
-.main {
-  overflow: hidden;
+
+.button{
+  display: inline-flex;
+  color: var(--white-color);
+  font-weight: var(--font-semibold);
+  padding: 0.8rem 1rem;
+  font-size: 0.8rem;
+  transition: box-shadow .4s;
+  border-radius: 25px;
+  column-gap: 10px;
+  align-items: center;
+  margin-top: .8rem;
+  justify-content: center;
+}
+
+.button:hover{
+  box-shadow: 0 8px 32px hsla(152, 94%, 30%, 0.3);
+  color: var(--white-color);
 }

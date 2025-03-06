@@ -13,7 +13,7 @@
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   padding-block: 4rem 1rem;
-  padding-inline: 1rem;
+  padding-inline: 1.3rem;
   
 }
 
@@ -40,7 +40,7 @@
 }
 
 .swiper-slide > p{
-  width: 90%;
+  width: 95%;
   margin-bottom: 10px;
   font-size: var(--font-small);
   margin-bottom: 20px;
@@ -68,3 +68,48 @@
 }
 
 
+.appliances{
+  background: var(--background-section);
+}
+
+.button--section{
+  background: var(--button-bg2);
+  column-gap: 20px;
+  
+}
+
+.section__content > img{
+  width: 100%;
+  height: 300px;
+  justify-content: cover;
+}
+
+
+.reviews{
+  background: var(--background-section-second);
+}
+
+.quotes{
+  text-align: initial;
+}
+
+.ri-double-quotes-l{
+  font-size: 4rem;
+  color: 	hsl(230, 61%, 22%, 0.5);
+  
+}
+
+.section__content > h3{
+  text-align: initial;
+  font-size: var(--font-heading);
+  font-weight: var(--font-extrabold);
+  color: var(--text-dark-blue);
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.review__content > p{
+  color: var(--text-dark-blue);
+  font-weight: var(--font-bold);
+  text-align: initial;
+}
