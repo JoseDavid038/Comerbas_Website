@@ -48,15 +48,76 @@ var swiper = new Swiper(".mySwiper", {
  breakpoints: {
     // When the viewport is 640px or larger
     640: {
-      slidesPerView: 2,
+      slidesPerView: 1,
       spaceBetween: 20,
     },
     // When the viewport is 1024px or larger
     1024: {
-      slidesPerView: 3,
+      slidesPerView: 1,
       spaceBetween: 30,
     }
   }
 });
 
+
+var swiper2 = new Swiper(".mySwiper2", {
+  slidesPerView: 1,
+
+  spaceBetween: 2,
+  centeredSlides: true,
+  pagination: {
+    el: ".mySwiper2 .swiper-pagination",
+    clickable: true,
+  },
+
+  loop: false,
+  on: {
+    slideChange: function () {
+      updateActiveTab(swiper2.realIndex);
+    },
+  },
+
+ breakpoints: {
+    // When the viewport is 640px or larger
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 1,
+    },
+    // When the viewport is 1024px or larger
+    1024: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    }
+  }
+});
+
+
+// var swiper = new Swiper(".mySwiper2", {
+//   slidesPerView: 1,
+//   spaceBetween: 30,
+//   loop: false,
+//   on: {
+//     slideChange: function () {
+//       updateActiveTab(swiper2.realIndex);
+//     },
+//   },
+// });
+
+// Select all tab buttons
+const tabButtons = document.querySelectorAll(".tab-buttons");
+
+// Add event listeners for clicks on tabs
+tabButtons.forEach((button, index) => {
+  button.addEventListener("click", () => {
+    swiper2.slideTo(index);
+    updateActiveTab(index);
+  });
+});
+
+// Function to update the active tab style
+function updateActiveTab(activeIndex) {
+  tabButtons.forEach((button, index) => {
+    button.classList.toggle("active", index === activeIndex);
+  });
+}
 

@@ -55,6 +55,7 @@
   
   /* Borders (converted to rem) */
   --border-radius: 0.5rem;  /* 8px */
+  --border-radius-buttons : 1.5rem; /*25px*/
 
   /* z - index */
   --z-tooltip: 10;
