@@ -76,6 +76,7 @@
   display: flex;
   overflow-x: auto;  /* Enable horizontal scroll */
   white-space: nowrap;  /* Prevent line breaks */
+  scroll-behavior: smooth; /* Smooth scroll effect */
 }
 
 .tab-buttons{
@@ -84,7 +85,9 @@
   text-align: center;
   border-radius: 2rem;
   padding: 0.9rem 0.7rem;
+  cursor: pointer;
   transition: background 0.3s ease;
+  /*flex-shrink: 0; Prevent shrinking when scrolling */
 }
 
 .menu-tab::-webkit-scrollbar {

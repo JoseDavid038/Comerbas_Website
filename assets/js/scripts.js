@@ -69,7 +69,6 @@ var swiper2 = new Swiper(".mySwiper2", {
     el: ".mySwiper2 .swiper-pagination",
     clickable: true,
   },
-
   loop: false,
   on: {
     slideChange: function () {
@@ -105,12 +104,21 @@ var swiper2 = new Swiper(".mySwiper2", {
 
 // Select all tab buttons
 const tabButtons = document.querySelectorAll(".tab-buttons");
+const menuTab = document.querySelector(".menu-tab"); // The tab container
 
 // Add event listeners for clicks on tabs
 tabButtons.forEach((button, index) => {
   button.addEventListener("click", () => {
     swiper2.slideTo(index);
     updateActiveTab(index);
+
+    // Scroll the menu-tab to bring the clicked tab into view
+    menuTab.scrollTo({
+      left: button.offsetLeft - menuTab.offsetLeft, // Move tab toward left
+      behavior: "smooth",
+    });
+
+
   });
 });
 
