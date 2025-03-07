@@ -99,7 +99,7 @@
   
 }
 
-.section__content > h3{
+.review__content > h3{
   text-align: initial;
   font-size: var(--font-heading);
   font-weight: var(--font-extrabold);
@@ -113,3 +113,40 @@
   font-weight: var(--font-bold);
   text-align: initial;
 }
+
+.contact{
+  background: var(--background-section);
+}
+
+.contact__content > h2,p,form,button{
+  text-align: initial;
+}
+
+.contact__content > p {
+  font-size: 1rem;
+  color: var(--text-light-gray); 
+  margin-bottom: 1.5rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-medium);
+}
+
+.contact-form > input,textarea{
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 20px;
+  font-size: var(--font-base);
+  font-weight: var(--font-bold);
+}
+
+::placeholder {
+  color: var(--text-light-gray); 
+  font-weight: var(--font-bold);
+  font-family: var(--font-primary);
+}
+
+
+
