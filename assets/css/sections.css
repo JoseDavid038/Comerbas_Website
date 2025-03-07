@@ -148,5 +148,62 @@
   font-family: var(--font-primary);
 }
 
+.footer{
+  background: var(--background-dark-blue);
+  margin-block: .1rem .1rem;
+}
+
+.footer__content{
+  row-gap: 3rem;
+}
+
+.footer__content > p{
+  color: var(--white-color);
+}
+
+.footer-nav-link{
+  color: var(--white-color);
+  font-weight: var(--font-light);
+  text-align: initial;
+}
+
+.footer__info-contact{
+  display: flex;
+  flex-direction: column;
+  row-gap:30px;
+}
+
+.info__contact > i {
+  color: #18E4A1;
+  font-size: var(--font-title);
+}
+
+.info__contact{
+  display: flex;
+  column-gap: 8px;
+}
+
+.footer__icons{
+  display: flex;
+  column-gap: 30px;
+}
 
 
+.footer__nav__list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.footer__nav__list > li{
+  color: var(--white-color);
+  font-weight: var(--font-base);
+  text-align: initial;
+}
+
+.footer__rights{
+  font-size: 0.7rem;
+  color: var(--white-color);
+  font-weight: 100;
+  text-align: center;
+}
