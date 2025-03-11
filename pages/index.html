@@ -29,24 +29,25 @@
 
   <!-- header -->
    <header class="header" id="header">
-    <nav class="nav container">
-      <a href="" class="nav__logo">
-        <img src="../assets/images/company-logo.png" alt="image" class="logo">
-      </a>
-
+    <nav class="nav nav__container">
+      <div  class="nav__logo">
+        <a href="">
+          <img src="../assets/images/company-logo.png" alt="image" class="logo">
+        </a>
+      </div>
       <div class="nav__menu" id="nav-menu">
-        <ul class="nav__list">
-          <li href="" class="nav__link active-link">Para Personas</li>
-          <li href="" class="nav__link">Para Empresas</li>
-          <li href="" class="nav__link">IPS</li>
-          <li href="" class="nav__link">Sobre nosotros</li>
-          <li href="" class="nav__link">
-            <a href="" target="_blank" class="nav__link button button--menu">
-              <i class="ri-handbag-line"></i>
-              <span>Tienda en línea Comerbas</span>
-            </a>
-          </li>
-        </ul>
+        <div class="nav__list">
+          <p href="" class="nav__link nav__link-desktop active-link">Para Personas</p>
+          <p href="" class="nav__link nav__link-desktop">Para Empresas</p>
+          <p href="" class="nav__link nav__link-desktop">IPS</p>
+          <p href="" class="nav__link nav__link-desktop">Sobre nosotros</p>
+        </div>
+        <div class="nav__menu-button">
+          <a href="" target="_blank" class="nav__link button button--menu">
+            <i class="ri-handbag-line"></i>
+            <span>Tienda en línea Comerbas</span>
+          </a>
+        </div>
 
         <!--Close button-->
         <div class="nav__close" id="nav-close">
@@ -63,24 +64,24 @@
     </nav>
    </header>
 
-   <main class="main">
+   <main class="main container">
     <section class="hero">
 
       <!-- Swiper -->
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide swiper-slide-1">
-            <h1>Accede al crédito que tú y tu familia necesita</h1>
+          <div class="swiper-slide swiper-slide-hero swiper-slide-1 ">
+            <h1>Accede al crédito que tú y tu familia necesitan</h1>
             <p>Queremos lo mejor para ti y tu familia,solicita un crédito de consumo para que puedas cumplir ese sueño que tanto deseas.</p>
             <a href="#" class="button">
               <span>Solicita tu crédito</span>
               <i class="ri-arrow-right-line"></i>
             </a>
             <div class="swiper-slide-image-container">
-              <img src="../assets/images/hero/hero-banner-family.png" alt="">
+              <img src="../assets/images/hero/hero-banner-family.png" alt="" class="swiper__img">
             </div>
           </div>
-          <div class="swiper-slide swiper-slide-2">
+          <div class="swiper-slide swiper-slide-hero swiper-slide-2">
             <h1>Protege a los tuyos con un seguro exequial</h1>
             <p>Brinda tranquilidad a tu familia en los momentos más difíciles. Con nuestro seguro exequial, cuentas con respaldo financiero cuando más lo necesitas.</p>
             <a href="#" class="button">
@@ -88,10 +89,10 @@
               <i class="ri-arrow-right-line"></i>
             </a>
             <div class="swiper-slide-image-container">
-              <img src="../assets/images/hero/hero-banner-older.png" alt="">
+              <img src="../assets/images/hero/hero-banner-older.png" alt="" class="swiper__img">
             </div>
           </div>
-          <div class="swiper-slide swiper-slide-3">
+          <div class="swiper-slide swiper-slide-hero swiper-slide-3">
             <h1>Te financiamos los productos que necesitas</h1>
             <p>Lleva a casa productos y electrodomésticos con  pagos accesibles para tí.</p>
             <a href="#" class="button">
@@ -99,10 +100,10 @@
               <i class="ri-arrow-right-line"></i>
             </a>
             <div class="swiper-slide-image-container">
-              <img src="../assets/images/hero/hero-banner-appliances.png" alt="">
+              <img src="../assets/images/hero/hero-banner-appliances.png" alt="" class="swiper__img">
             </div>
           </div>
-          <div class="swiper-slide swiper-slide-4">
+          <div class="swiper-slide swiper-slide-hero swiper-slide-4">
             <h1>Bonos de mercado para tus compras diarias</h1>
             <p>Solicita nuestros bonos de mercadohoy mismo y disfruta de descuentos exclusivos en los establecimientos asociados.</p>
             <a href="#" class="button">
@@ -110,7 +111,7 @@
               <i class="ri-arrow-right-line"></i>
             </a>
             <div class="swiper-slide-image-container">
-              <img src="../assets/images/hero/hero-banner-groceries.png" alt="">
+              <img src="../assets/images/hero/hero-banner-groceries.png" alt="" class="swiper__img">
             </div>
            
           </div>
@@ -196,7 +197,7 @@
 
           <article class="section__content-tabs swiper-slide">
             <img src="../assets/images/services/service-appliances.png" alt="">
-            <h2 class="section__subtitle-tabs">Te financiamos en cientos de porductos </h2>
+            <h2 class="section__subtitle-tabs">Te financiamos cientos de productos </h2>
             <p>Tenemos cientos de productos que puedes solicitar a credito, desde electrdomesticos, televisores y más</p>
             <ul class="tab__nav-list">
               <li>
@@ -273,8 +274,8 @@
         <div class="quotes">
           <i class="ri-double-quotes-l"></i>
         </div>
-        <h3>Con Comerbas he podido brindarle más comodidades a mi familia</h3>
-        <p>Ramiro, 37 años.Guardia de seguridad</p>
+        <h3 class="review__text">Con Comerbas he podido brindarle más comodidades a mi familia</h3>
+        <p class="review__text-name">Ramiro, 37 años.Guardia de seguridad</p>
       </div>
     </section>
 
@@ -299,7 +300,7 @@
     </section>
    </main>
 
-   <footer class="footer footer__section">
+   <footer class="footer footer__section container">
 
     <div class="footer__content section__container section__content footer__grid">
       <p>Un aliado experto en bienestar empresarial y salud ocupacional</p>
@@ -342,7 +343,7 @@
 
 
 
-  <a href="#" class="scrollup" id="scrollup">
+  <a href="#" class="whatsapp" id="whatsapp">
     <img src="../assets/images/icons/whatsapp.png" alt="">
   </a>
 

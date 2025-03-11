@@ -54,11 +54,6 @@ img {
 
 /* reusable css classes */
 
-.container {
-  max-width: 1120px;
-  margin-inline: 1rem;
-}
-
 .grid {
   display: grid;
   gap: 1.5rem;
@@ -81,20 +76,12 @@ img {
   text-align: center;
 }
 
+
 .section__title {
   font-size: var(--font-heading);
   font-weight: var(--font-bold);
   margin-bottom: 1.5rem;
   color: var(--text-dark-blue);
-}
-
-.section__subtitle {
-  display: block;
-  font-size: var(--font-normal);
-  font-weight: var(--font-semibold);
-  color: var(--text-light-gray);
-  margin-bottom: .5rem;
-  line-height: var(--spacing-medium);
 }
 
 

@@ -1,15 +1,3 @@
-/* Responsive Typography  */
-@media screen and (min-width: 1150px) {
-  :root {
-    --big-font-size: 3.5rem;
-    --h1-font-size: 2.25rem;
-    --h2-font-size: 1.5rem;
-    --h3-font-size: 1.25rem;
-    --normal-font-size: 1rem;
-    --small-font-size: .875rem;
-  }
-}
-
 
 @media screen and (max-width: 1150px) {
 
@@ -28,8 +16,7 @@
   }
 
   .nav__logo{
-    z-index: 1;;
-
+    z-index: 1;
   }
 }
 
@@ -41,6 +28,223 @@
 
 .active-link{
   color: var(--primary-color);
+}
+
+
+/* For small devices  */
+
+@media screen and (max-width: 340px){
+
+  .section__title{
+    font-size: 1.35rem;
+   }
+
+   .section__subtitle-tabs{
+    font-size: 1.20rem;
+   }
+
+   .review__text{
+    font-size: 1.35rem;
+   }
+
+   .review__text-name{
+    font-size: 0.9rem;
+   }
+  
+}
+
+/* For medium devices  */
+
+@media screen and (min-width: 540px) {
+
+  .swiper-slide > h1 {
+    width: 76%;
+    margin-bottom: 20px;
+    font-size: var(--font-heading);
+    color: var(--primary-color);
+    font-weight: var(--font-bold);
+  }
+
+  .section__content-tabs > img{
+    width: 100%;
+    height: 400px;
+    justify-content: contain;
+  }
+
+  .section__content{
+    padding-inline: 1.5rem;
+  }
+
+  .footer__nav__list{
+    display: grid;
+    grid-template-columns: repeat(2,15rem);
+  }
+
+  .swiper__img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    object-fit: contain;
+  }
+  
+} 
+
+@media screen and (min-width: 768px) {
+
+  .nav{
+    height: calc(var(--header-height) + 1rem);
+  }
+
+  .logo{
+    width: 150px;
+  }
+
+  .nav__menu{
+    width: 50%;
+  }
+
+  .main {
+    padding-block: 4.6rem .1rem;
+  }
+
+ .menu-tab{
+  justify-content: center;
+  padding: 0.2rem 0.2rem;
+  width: 40rem;
+ }
+
+ .section__content-services{
+  justify-content: center;
+}
+
+.section__content-tabs.swiper-slide{
+  padding-inline: 4.5rem;
+}
+
+.swiper-slide-hero{
+  padding-inline: 3rem;
+}
+
+.container {
+  /* max-width: 1480px; */
+  margin-inline: 1rem;
+  margin-bottom: 1rem;
+}
+
+  
+}
+
+/* For large devices  */
+
+@media screen and (min-width: 1150px) {
+
+  .container{
+    /* margin-inline: auto; */
+    margin-inline: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .nav{
+    height: calc(var(--header-height) + 2rem);
+    margin-inline: 1.5rem;
+    display: grid;
+    grid-template-columns: 20% 80%;
+  }
+
+  .logo{
+    width: 200px;
+    height: auto;
+  }
+
+
+  .nav__menu{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    align-items: center;
+  }
+
+  .nav__list{
+    flex-direction: row;
+    justify-content: center;
+    background: var(--white-color);
+    padding: 0.3rem 0.3rem;
+    width: 650px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+    border-radius: 2rem;
+    justify-self: center;
+    
+  }
+
+
+  .nav__link-desktop{
+    text-align: center;
+    border-radius: 2rem;
+    padding: .9rem 1.5rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 10rem;
+    font-size: var(--small-font-size);
+    font-weight: var(--font-regular);
+  }
+
+  .active-link{
+    background: var(--primary-color);
+    color: var(--white-color);
+    
+  }
+
+  .active-link:hover{
+    color: var(--white-color);
+  }
+
+  .nav__menu-button{
+    justify-self: end;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  /* .nav__container {
+    max-width: 1120px;
+  } */
+  
+  .nav__toggle,
+  .nav__close{
+    display: none;
+  }
+
+  .button--menu{
+    display: inline-flex;
+    background: var(--primary-color);
+    padding: 1.2rem 2rem;
+    font-weight: var(--font-regular);
+    border-radius: 2rem;
+  }
+
+  .main {
+    padding-block: 6.8rem .1rem;
+  }
+
+  .swiper{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+
+  
+}
+
+/* Responsive Typography  */
+@media screen and (min-width: 1150px) {
+  :root {
+    --big-font-size: 3.5rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+  }
 }
 
 
