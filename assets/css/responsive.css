@@ -282,6 +282,38 @@
     background: var(--background-dark-blue);
   }
   
+  .whatsapp{
+    background: #2DA41D;
+    right: 3rem;
+    bottom: 2rem;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    padding: 0.3rem .10rem;
+  }
+
+  .whatsapp-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .whatsapp-icon{
+    width: 50px;
+    height: auto;
+    display: flex;
+    justify-content: contain;
+  }
+
+  .whatsapp-text{
+    display: flex;
+    font-size: 0.7rem;
+    color: var(--white-color);
+    width: 100px;
+  }
+
+  
+  
 }
 
 /* Responsive Typography  */
