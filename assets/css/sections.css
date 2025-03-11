@@ -30,7 +30,8 @@
   height: 630px;
 }
 
-.swiper-slide > h1 {
+
+.title__slider {
   width: 90%;
   margin-bottom: 20px;
   font-size: var(--font-heading);
@@ -38,7 +39,8 @@
   font-weight: var(--font-bold);
 }
 
-.swiper-slide > p{
+
+.text__slider{
   width: 95%;
   margin-bottom: 10px;
   font-size: var(--font-small);
@@ -48,13 +50,13 @@
   
 }
 
-.swiper-slide > a{
+.button__slider{
   background: var(--button-bg);
   margin-bottom: 20px;
 }
 
 .swiper__img{
-  width: 100%;
+  width: 390px;
   max-width: 400px;
   height: 300px;
   object-fit: contain;
@@ -63,7 +65,7 @@
 .whatsapp{
   position: fixed;
   right: 1rem;
-  bottom: 3rem;
+  bottom: 4rem;
  
   display: inline-flex;
   padding: 6px;

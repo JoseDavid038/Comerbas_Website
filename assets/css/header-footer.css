@@ -1,6 +1,6 @@
 
 .logo{
-  width: 100px;
+  width: 120px;
 }
 
 
@@ -81,7 +81,10 @@
   display: inline-flex;
   background: var(--primary-color);
   padding: 1rem 1.5rem;
-  
+}
+
+.nav__menu-button{
+  margin-top: 15px;
 }
 
 
