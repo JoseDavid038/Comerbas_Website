@@ -207,7 +207,8 @@
 .section__content > img{
   width: 100%;
   height: 300px;
-  justify-content: cover;
+  object-fit: cover;
+  border-radius: 16px;
 }
 
 .section__subtitle {

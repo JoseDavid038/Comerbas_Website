@@ -249,9 +249,9 @@
   .swiper-slide-hero{
     display: grid;
     grid-template-columns: 54.5rem 500px;
-    grid-template-rows: 33rem;
+    grid-template-rows: 34rem;
     padding-inline: 2rem;
-    padding-top: 2rem;
+    padding-top: 1rem;
     position: relative;
   }
 
@@ -276,8 +276,9 @@
   }
 
   .swiper-pagination{
-    font-size: 5rem;
+    margin-bottom: 20px;
   }
+
 
   .swiper-pagination .swiper-pagination-bullet-active {
     background: var(--background-dark-blue);
@@ -316,14 +317,18 @@
 
   .section__title {
     font-size: var(--h1-font-size);
-    font-weight: var(--font-bold);
+    font-weight: var(--font-extrabold);
   }
 
   .grid-tabs{
     display: grid;
-    grid-template-columns: 30rem 1fr;
-    column-gap: 100px;
+    grid-template-columns: 32rem 1fr;
+    column-gap: 88px;
   }
+
+  .tab-image-container > img {
+    width: 100%;
+  };
   
   .tab-info-container{
     display: flex;
@@ -341,7 +346,39 @@
     font-size: var(--h3-font-size);
   }
 
+  .appliaces-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section__content > .section__title, .section__subtitle{
+    width: 50%;
+  }
+
+  .section__content > img{
+    width: 100%;
+    height: 474px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+
+  .section__subtitle{
+    font-size: var(--normal-font-size);
+  }
   
+  .review__text{
+    font-size: 3rem;
+    line-height: 3.5rem;
+    letter-spacing: -2px;
+  }
+
+  .reviews{
+    padding-inline: 3rem;
+    padding-block: 7rem;
+  }
+
+
 }
 
 /* Responsive Typography  */
