@@ -127,6 +127,7 @@
   flex-direction: column;
 }
 
+
 .section__content-tabs > p,ul{
   color: var(--text-light-gray); 
   font-size: var(--font-normal);
@@ -165,13 +166,23 @@
   row-gap: 2rem;
 }
 
+.tab-info-container{
+  padding-block: .2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.grid-tabs{
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
 
 .swiper2{
   width: 100%;
   height: auto;
 }
-
-
 
 
 .appliances, .services{

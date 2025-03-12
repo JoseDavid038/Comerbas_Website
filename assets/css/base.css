@@ -98,6 +98,7 @@ img {
   margin-top: .8rem;
   justify-content: center;
   border: none;
+  cursor: pointer;
 }
 
 .button:hover{
