@@ -370,7 +370,7 @@
   .review__text{
     font-size: 3rem;
     line-height: 3.5rem;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
   }
 
   .reviews{
@@ -378,7 +378,24 @@
     padding-block: 7rem;
   }
 
+  .contact{
+    padding: 3.93rem 13.7rem;
+  }
 
+  .contact-form > input{
+    padding: 1.5rem;
+  }
+
+  .contact-form > textarea{
+    resize: none;
+  }
+
+  .button--section{
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    display: flex;
+    column-gap: 0.625rem;
+  }
 }
 
 /* Responsive Typography  */
