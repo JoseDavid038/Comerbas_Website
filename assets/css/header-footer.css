@@ -110,9 +110,10 @@
   row-gap: 3rem;
 }
 
-.footer__content > p{
+.footer__slogan{
   color: var(--white-color);
   font-weight: 100;
+  margin-bottom: 3rem;
 }
 
 .footer-nav-link{
@@ -158,6 +159,7 @@
   color: var(--white-color);
   font-weight: 100;
   text-align: center;
+  margin-top: 3.125rem;
 }
 
 

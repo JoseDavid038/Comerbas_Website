@@ -400,6 +400,31 @@
     display: flex;
     column-gap: 0.625rem;
   }
+
+  .footer__grid {
+    display: grid;
+    grid-template-columns: 400px 1fr 400px;
+    column-gap: 50px;
+  }
+
+  .footer{
+    padding-top: 5rem;
+  }
+
+  .footer__nav__list{
+    display: grid;
+    grid-template-rows: 1rem;
+  }
+
+  .footer__rights{
+    font-size: 0.75rem;
+    margin-top: 3.75rem;
+  }
+
+  .footer__nav__list > .nav__link{
+    font-size: var(--normal-font-size);
+  }
+
 }
 
 /* Responsive Typography  */
