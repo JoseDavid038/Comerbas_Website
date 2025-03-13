@@ -275,6 +275,10 @@
     font-size: 1rem;
   }
 
+  .button__slider-1{
+    margin-top: 6.875rem;
+  }
+
   .swiper-pagination{
     margin-bottom: 20px;
   }
