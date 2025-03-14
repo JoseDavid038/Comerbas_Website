@@ -83,6 +83,11 @@
   padding: 1rem 1.5rem;
 }
 
+
+.button--menu-tramites:hover{
+  background: #036132;
+}
+
 .nav__menu-button{
   margin-top: 15px;
 }
