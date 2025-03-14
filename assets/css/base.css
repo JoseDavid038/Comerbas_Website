@@ -101,7 +101,7 @@ img {
   cursor: pointer;
 }
 
-.button:hover{
-  box-shadow: 0 8px 32px hsla(152, 94%, 30%, 0.3);
+/* .button:hover{
+  box-shadow: 0 8px 32px hsla(152, 94%, 30%);
   color: var(--white-color);
-}
+} */

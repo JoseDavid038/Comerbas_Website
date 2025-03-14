@@ -65,7 +65,7 @@
 }
 
 
-.nav__link:hover{
+.js-nav__link:hover{
   color: var(--primary-color);
 }
 
@@ -86,11 +86,14 @@
 
 .button--menu-tramites:hover{
   background: #036132;
+  color: var(--white-color);
 }
 
 .nav__menu-button{
   margin-top: 15px;
 }
+
+
 
 
 /* footer */

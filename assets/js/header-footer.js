@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   loadComponent("footer", "/components/footer.html");
+  
 });
 
 // Function to fetch and load components
@@ -96,6 +97,9 @@ function setNavLinks(){
   });
 
 };
+
+
+
 
 
  

@@ -425,6 +425,14 @@
     font-size: var(--normal-font-size);
   }
 
+
+  .title__slider.title__slider-e {
+    margin-bottom: 20px;
+    font-size: 5rem;
+    font-weight: var(--font-semibold);
+    letter-spacing: -4px;
+  }
+
 }
 
 /* Responsive Typography  */
