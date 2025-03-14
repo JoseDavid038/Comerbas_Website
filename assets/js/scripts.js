@@ -91,17 +91,6 @@ var swiper2 = new Swiper(".mySwiper2", {
 });
 
 
-// var swiper = new Swiper(".mySwiper2", {
-//   slidesPerView: 1,
-//   spaceBetween: 30,
-//   loop: false,
-//   on: {
-//     slideChange: function () {
-//       updateActiveTab(swiper2.realIndex);
-//     },
-//   },
-// });
-
 // Select all tab buttons
 const tabButtons = document.querySelectorAll(".tab-buttons");
 const menuTab = document.querySelector(".menu-tab"); // The tab container
@@ -127,9 +116,14 @@ function updateActiveTab(activeIndex) {
   tabButtons.forEach((button, index) => {
     button.classList.toggle("active", index === activeIndex);
   });
-
- 
 }
+
+
+// links
+
+document.querySelector('.js-company-button').addEventListener('click' ,() => {
+  window.location.href = "../pages/empresas.html" ;
+});
 
 
 
