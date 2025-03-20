@@ -3,9 +3,80 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="../assets/images/icons/favicon.ico" type="image/x-icon">
+  <!-- css -->
+   <link rel="stylesheet" href="../assets/css/variables.css">
+   <link rel="stylesheet" href="../assets/css/base.css">
+   <link rel="stylesheet" href="../assets/css/dropdown.css">
+ 
+
+  <!--icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+ 
+
+
   <title>Comerbas - Ips</title>
 </head>
 <body>
+
+
+  <div class="nav__menu-button">
+    <a href="" target="_blank" class="nav__link button button--menu js-button-menu">
+      <i class="ri-handbag-line js-ri-handbag-line"></i>
+      <span class="js-text-button">Tienda en línea Comerbas</span>
+    </a>
+
+    <div class="dropdown__container">
+      <div class="dropdown__content">
+        <div class="dropdown__group">
+          <span class="dropdown__title">Certificados de salud ocupacional</span>
+          <p class="dropdown__paragraph">Descarga los resultados y certificados de los exámenes de salud ocupacional.</p>
+          <button type="submit" class="button dropdown__button">
+              Ir a resultados
+            <i class="ri-arrow-right-line"></i>
+          </button>
+        </div>
+
+        <div class="dropdown__group">
+          <span class="dropdown__title">Certificados para empresas</span>
+          <p class="dropdown__paragraph">Descarga certificados:</p>
+          <ul class="dropdown__list">
+            <li>Psicofísicos</li>
+            <li>Psicosensométricos</li>
+            <li>Armas</li>
+          </ul>
+          <button type="submit" class="button dropdown__button">
+              Ir a certificados
+            <i class="ri-arrow-right-line"></i>
+          </button>
+        </div>
+
+        <div class="dropdown__group">
+          <span class="dropdown__title">Gestión de créditos</span>
+          <p class="dropdown__paragraph">Gestiona la aprobación de créditos de tus empleados</p>
+          <button type="submit" class="button dropdown__button">
+              Ir a créditos
+            <i class="ri-arrow-right-line"></i>
+          </button>
+        </div>
+
+        <div class="dropdown__group">
+          <span class="dropdown__title">Pagos PSE</span>
+          <p class="dropdown__paragraph">Realiza tus pagos de manera rápida y sencilla.</p>
+          <button type="submit" class="button dropdown__button">
+              Ir a pagar
+            <i class="ri-arrow-right-line"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
   
 </body>
 </html>

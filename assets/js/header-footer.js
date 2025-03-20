@@ -44,6 +44,12 @@ function setupNavButtons(){
    iconElement.classList.replace("ri-handbag-line", "ri-device-line");
    CallToActionButton.classList.add('button--menu-tramites');
 
+   CallToActionButton.addEventListener('click', () =>{
+    navDropdown.classList.add('show-menu');
+  })
+
+   
+
 
  }else if (window.location.pathname.includes("ips.html")){
    textCallToActionButton.textContent = "Afilia tu empresa ahora";
@@ -107,6 +113,7 @@ function setupMenu(){
   const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),
       navClose = document.getElementById('nav-close');
+      navDropdown = document.getElementById('nav-drop');
 
     // menu show
 
@@ -121,8 +128,25 @@ function setupMenu(){
   if(navClose){
   navClose.addEventListener('click', () =>{
     navMenu.classList.remove('show-menu');
+    navDropdown.classList.remove('show-menu');
   })
   }
+
+  // menu dropdown
+
+  if(CallToActionButton){
+    CallToActionButton.addEventListener('click', () =>{
+      navDropdown.classList.add('show-menu');
+    })
+  }
+
+  // menu dropdown hidden
+
+  // if(CallToActionButton){
+  //   CallToActionButton.addEventListener('click', () =>{
+  //     navDropdown.classList.remove('show-menu');
+  //   })
+  //   }
 
 
   // remove menu mobile

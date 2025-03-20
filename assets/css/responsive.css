@@ -6,13 +6,23 @@
     top: 0;
     right: -100%;
     width: 100%;
-    height: 52%;
-    padding: 7.5rem 1.5rem 0;
+    height: 47%;  /*before 52*/
+    padding-top: 7.5rem;
+    padding-left: 1.5rem;
     background-color: white;
     border-left: 2px solid var(--white-color);
     transition: right .4s;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+  }
+
+  .dropdown__container{
+    position: fixed;
+    top: 305px;
+    right: -100%;
+    width: 100%;
+    transition: right .4s;
+    /* margin-inline: 0.05rem; */
   }
 
   .nav__logo{
@@ -25,6 +35,7 @@
 .show-menu{
   right: 0;
 }
+
 
 .active-link{
   color: var(--primary-color);
