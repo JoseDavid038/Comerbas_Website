@@ -141,7 +141,7 @@
   }
 
   .nav{
-    height: calc(var(--header-height) + 2rem);
+    height: calc(var(--header-height) + 2.3rem);
     margin-inline: 1.5rem;
     display: grid;
     grid-template-columns: 20% 80%;
@@ -280,7 +280,7 @@
   }
 
   .swiper-pagination{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
 
