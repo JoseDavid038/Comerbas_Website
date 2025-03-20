@@ -1,11 +1,5 @@
 
-function setupSwiper(){
-
   // Swiper
-
-  const swiperElement = document.querySelector(".mySwiper");
-
-  if (!swiperElement) return; // Exit if Swiper container doesn't exist
 
   new Swiper(".mySwiper", {
     spaceBetween: 30,
@@ -31,7 +25,7 @@ function setupSwiper(){
       }
     }
   });
-}
+
 
 
 
