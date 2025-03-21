@@ -1,5 +1,4 @@
 
-
 document.addEventListener('DOMContentLoaded', function() {
   loadComponent("header", "/components/header.html" , () => {
     
@@ -114,6 +113,7 @@ function setupMenu(){
       navToggle = document.getElementById('nav-toggle'),
       navClose = document.getElementById('nav-close');
       navDropdown = document.getElementById('nav-drop');
+      // CallToActionButton = document.querySelector('.js-button-menu');
 
     // menu show
 
@@ -134,11 +134,11 @@ function setupMenu(){
 
   // menu dropdown
 
-  if(CallToActionButton){
-    CallToActionButton.addEventListener('click', () =>{
-      navDropdown.classList.add('show-menu');
-    })
-  }
+  // if(CallToActionButton){
+  //   CallToActionButton.addEventListener('click', () =>{
+  //     navDropdown.classList.add('show-menu');
+  //   })
+  // }
 
   // menu dropdown hidden
 
@@ -155,7 +155,9 @@ function setupMenu(){
 
   const linkAction = () =>{
   // const navMenu = document.getElementById('nav-menu'); no es necesario volverla a declarar.
-  navMenu.classList.remove('show-menu');
+    if (window.location.pathname.includes("index.html")){
+      navMenu.classList.remove('show-menu');
+    }
   }
 
   navLink.forEach(n => n.addEventListener('click', linkAction));
