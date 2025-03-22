@@ -31,6 +31,7 @@ function setupNavButtons(){
   const textCallToActionButton = document.querySelector('.js-text-button');
   const iconElement = document.querySelector('.js-ri-handbag-line');
   const CallToActionButton = document.querySelector('.js-button-menu');
+  const navMenu = document.getElementById('nav-menu'),
   navLinks = document.querySelectorAll('.js-nav__link');
 
   // Check if the button exists before modifying it
@@ -44,7 +45,9 @@ function setupNavButtons(){
    CallToActionButton.classList.add('button--menu-tramites');
 
    CallToActionButton.addEventListener('click', () =>{
+    navMenu.classList.add('nav__menu-dropdown');
     navDropdown.classList.add('show-menu');
+   
   })
 
    
@@ -128,6 +131,7 @@ function setupMenu(){
   if(navClose){
   navClose.addEventListener('click', () =>{
     navMenu.classList.remove('show-menu');
+    navMenu.classList.remove('nav__menu-dropdown');
     navDropdown.classList.remove('show-menu');
   })
   }
