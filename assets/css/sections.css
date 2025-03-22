@@ -278,15 +278,21 @@
   transition: all ease-in-out 0.5s;
 }
 
-.faq-box-icon::before{
-  top: 0px;
+.faq-box-icon{
+  display: flex;
 }
 
-.faq-box-icon::after{
-  top: 0px;
-  transform: rotate(90deg);
+/* .faq-box-icon{
+  transition: transform 0.3s ease;
+} */
+
+.faq-box-question.active .faq-box-icon{
+  transform: rotate(180deg);
+  position: relative;
+  top: -70px;
 }
 
-.faq-box-question.active .faq-box-icon::after{
-  transform: rotate(0deg);
+.ri-arrow-down-s-line {
+  color:var(--text-dark-blue);
+  font-size: var(--font-title);
 }
