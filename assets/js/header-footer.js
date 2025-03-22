@@ -45,8 +45,11 @@ function setupNavButtons(){
    CallToActionButton.classList.add('button--menu-tramites');
 
    CallToActionButton.addEventListener('click', () =>{
-    navMenu.classList.add('nav__menu-dropdown');
-    navDropdown.classList.add('show-menu');
+    // navMenu.classList.add('nav__menu-dropdown');
+    // navDropdown.classList.add('show-menu');
+
+    navMenu.classList.toggle('nav__menu-dropdown');
+    navDropdown.classList.toggle('show-menu');
    
   })
 
