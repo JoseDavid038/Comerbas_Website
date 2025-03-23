@@ -22,20 +22,22 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 8px;
+  gap: 5px;
   min-height: 180px;
 }
 
 .dropdown__title{
-  font-size: 14px;
+  font-size: var(--font-small);
   font-weight: var(--font-extrabold);
   margin-bottom: 8px;
+  color: var(--text-dark-blue);
 }
 
 .dropdown__paragraph, .dropdown__list{
   font-size: 12px;
   line-height: 1.5;
   flex-grow: 1;
+  color: var(--text-dark-blue);
 }
 
 .dropdown__list{

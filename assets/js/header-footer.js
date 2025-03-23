@@ -31,7 +31,8 @@ function setupNavButtons(){
   const textCallToActionButton = document.querySelector('.js-text-button');
   const iconElement = document.querySelector('.js-ri-handbag-line');
   const CallToActionButton = document.querySelector('.js-button-menu');
-  const navMenu = document.getElementById('nav-menu'),
+  const navMenu = document.getElementById('nav-menu');
+  const navDropdown = document.getElementById('nav-drop');
   navLinks = document.querySelectorAll('.js-nav__link');
 
   // Check if the button exists before modifying it
@@ -47,7 +48,7 @@ function setupNavButtons(){
    CallToActionButton.addEventListener('click', () =>{
     // navMenu.classList.add('nav__menu-dropdown');
     // navDropdown.classList.add('show-menu');
-
+    navDropdown.classList.toggle('dropdown__container-desktop');
     navMenu.classList.toggle('nav__menu-dropdown');
     navDropdown.classList.toggle('show-menu');
    
@@ -68,6 +69,7 @@ function setupNavButtons(){
  }else{
    textCallToActionButton.textContent = textCallToActionButton.dataset.text || "Tienda en línea Comerbas"; // Default text
    iconElement.classList.replace( "ri-device-line" ,"ri-handbag-line"); // Ensure default icon
+   
  };
 
 };
