@@ -162,6 +162,10 @@
 }
 
 
+.medical__tests-title{
+  font-size: 1.8rem;
+}
+
 .reviews{
   background: var(--background-section-second);
 }

@@ -1,3 +1,10 @@
+.selection__process-info{
+  display: flex;
+  flex-direction: column;
+  row-gap: .5rem;
+}
+
+
 .selection__process-list {
   list-style: none;
 }
@@ -5,12 +12,15 @@
 .selection__process-item {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  column-gap: 1rem;
   border-radius: 10px;
   padding: 0.75rem 1rem;
-  margin-bottom: 0.75rem;
+  
 }
 
+.selection__process-grid > p{
+  line-height: 1.5rem;
+}
 
 .item__icon {
   width: 44px;
@@ -56,6 +66,15 @@
   position: absolute;
   right: 0;
   z-index: 2; /* Brings this image to the front */
+}
+
+.medical__tests-image > img{
+  border-radius: 20px;
+}
+
+.section__content-tests{
+  text-align: center;
+  margin-inline: 1.5rem;
 }
 
 .stats {
