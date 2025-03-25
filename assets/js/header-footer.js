@@ -59,7 +59,7 @@ function setupNavButtons(){
 
  }else if (window.location.pathname.includes("ips.html")){
    textCallToActionButton.textContent = "Afilia tu empresa ahora";
-
+   iconElement.classList.replace("ri-handbag-line", "ri-customer-service-2-fill");
     // Redirect **when the button is clicked**
     textCallToActionButton.closest(".nav__link").addEventListener('click', function(event) {
      event.preventDefault(); // Prevent default link behavior

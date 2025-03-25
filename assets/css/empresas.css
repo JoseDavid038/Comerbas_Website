@@ -1,3 +1,8 @@
+.swiper__img{
+  object-fit: cover;
+  object-position: -70px -15px;
+}
+
 .selection__process-info{
   display: flex;
   flex-direction: column;

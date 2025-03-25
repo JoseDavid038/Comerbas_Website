@@ -8,7 +8,6 @@
   border-top-right-radius: 25px;
   padding-block: 4rem 1rem;
   padding-inline: 1.3rem;
-  
 }
 
 .swiper-slide-1, .swiper-slide-2, .swiper-slide-4{
@@ -93,4 +92,17 @@
   border-style: solid;
   border-color: var(--button-bg2);
   border-width: 1px;
+}
+
+
+/* ips */
+
+.swiper__img.ips{
+  object-fit: cover;
+  object-position: -90px;
+}
+
+.swiper-slide.ips{
+  padding-top: 4rem;
+  padding-bottom: .001rem;
 }
