@@ -702,6 +702,11 @@
     letter-spacing: -4px;
   }
 
+  .hero.ips{
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+  }
+
 }
 
 /* Responsive Typography  */
