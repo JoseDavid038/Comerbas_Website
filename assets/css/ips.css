@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-.js-section-paragraph{
+.js-section-paragraph, .js-section-paragraph2{
   line-height: 1.5rem;
   color: var(--text-ligh-blue);
 }
